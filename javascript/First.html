@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>On Click</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Full screen height */
+      margin: 0;
+      background-color: #111; /* optional background */
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    h1 {
+      color: rgb(76, 221, 153);
+      margin: 10px 0;
+    }
+
+    h2 {
+      margin: 10px 0;
+      color: white;
+    }
+
+    span {
+      display: block;
+      margin: 10px 0;
+      color: lightgray;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 10px 15px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 6px;
+      border: none;
+      background: aqua;
+      color: black;
+      font-weight: bold;
+    }
+
+    p {
+      margin-top: 15px;
+      color: yellow;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1> WATCH </h1>
+    <h2>SHOW TIME & DATE </h2>
+    <span>Click here</span>
+    <button onclick="document.getElementById('time').innerHTML = Date()">Show Date</button>
+    <p id="time"></p>
+  </div>
+</body>
+</html>
