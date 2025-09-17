@@ -15,7 +15,7 @@ header{
     background-color: #333;
     color:#ffffff;
     padding: 21px;
-    text-align: center;
+    text-align:center;
 }
 
 nav{
@@ -51,5 +51,6 @@ footer {
   padding: 15px;
   margin-top: 20px;
 }
+
 
 
