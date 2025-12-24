@@ -1,4 +1,4 @@
-console.log("Hello, World!");
+console.log("Hello, World");
 console.log("Let's start 60 days learning");
 
 // Variables
