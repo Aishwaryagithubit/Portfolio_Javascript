@@ -2,7 +2,7 @@ console.log("Hello, World!");
 console.log("Let's start 60 days learning");
 
 // Variables
-var p = 9;
+var p = 900;
 console.log(p);
 
 var q = "leapfrog";
