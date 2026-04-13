@@ -1,4 +1,5 @@
 const age = 26;
+const age = 27;
 const output = age>=18 ? "Eligible to vote" : "Not Eligible";
 console.log(output);
 
